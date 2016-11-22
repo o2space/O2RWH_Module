@@ -14,7 +14,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "RWHBaseModule"             #名称
-s.version      = "0.0.1"                     #版本号
+s.version      = "0.0.2"                     #版本号
 s.summary      = "iOS模块化功能的引用"         #简短介绍
 
 s.homepage     = "https://github.com/wukexiu/O2RWH_Module"
