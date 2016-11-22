@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1666E3381DE3F16B0019BB63 /* RWHBaseModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3361DE3F16B0019BB63 /* RWHBaseModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1666E3591DE3F2180019BB63 /* UIColor+RWHAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3421DE3F2170019BB63 /* UIColor+RWHAdd.h */; };
+		1666E35A1DE3F2180019BB63 /* UIColor+RWHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3431DE3F2170019BB63 /* UIColor+RWHAdd.m */; };
+		1666E35B1DE3F2180019BB63 /* RWHMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3471DE3F2170019BB63 /* RWHMacros.h */; };
+		1666E35C1DE3F2180019BB63 /* LMSCommonAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3491DE3F2170019BB63 /* LMSCommonAlertView.h */; };
+		1666E35D1DE3F2180019BB63 /* LMSCommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E34A1DE3F2170019BB63 /* LMSCommonAlertView.m */; };
+		1666E35E1DE3F2180019BB63 /* LMSCustomActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E34B1DE3F2170019BB63 /* LMSCustomActionSheet.h */; };
+		1666E35F1DE3F2180019BB63 /* LMSCustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E34C1DE3F2170019BB63 /* LMSCustomActionSheet.m */; };
+		1666E3601DE3F2180019BB63 /* LMSIntrodutionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E34D1DE3F2180019BB63 /* LMSIntrodutionView.h */; };
+		1666E3611DE3F2180019BB63 /* LMSIntrodutionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E34E1DE3F2180019BB63 /* LMSIntrodutionView.m */; };
+		1666E3621DE3F2180019BB63 /* LMSIntrodutionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E34F1DE3F2180019BB63 /* LMSIntrodutionView.xib */; };
+		1666E3631DE3F2180019BB63 /* ZHPickView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3501DE3F2180019BB63 /* ZHPickView.h */; };
+		1666E3641DE3F2180019BB63 /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3511DE3F2180019BB63 /* ZHPickView.m */; };
+		1666E3651DE3F2180019BB63 /* RWHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3521DE3F2180019BB63 /* RWHAppDelegate.h */; };
+		1666E3661DE3F2180019BB63 /* RWHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3531DE3F2180019BB63 /* RWHAppDelegate.m */; };
+		1666E3671DE3F2180019BB63 /* RWHBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3541DE3F2180019BB63 /* RWHBaseViewController.h */; };
+		1666E3681DE3F2180019BB63 /* RWHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3551DE3F2180019BB63 /* RWHBaseViewController.m */; };
+		1666E3691DE3F2180019BB63 /* RWHCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3561DE3F2180019BB63 /* RWHCore.h */; };
+		2B765FB1C74AB9D85DBA6A06 /* libPods-RWHBaseModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE60575115A015456D6A3EC /* libPods-RWHBaseModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1479B8B8F2B9488A1707B7B7 /* Pods-RWHBaseModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWHBaseModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWHBaseModule/Pods-RWHBaseModule.release.xcconfig"; sourceTree = "<group>"; };
+		1666E3331DE3F16B0019BB63 /* RWHBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWHBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1666E3361DE3F16B0019BB63 /* RWHBaseModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWHBaseModule.h; sourceTree = "<group>"; };
+		1666E3371DE3F16B0019BB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1666E3421DE3F2170019BB63 /* UIColor+RWHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RWHAdd.h"; sourceTree = "<group>"; };
+		1666E3431DE3F2170019BB63 /* UIColor+RWHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RWHAdd.m"; sourceTree = "<group>"; };
+		1666E3471DE3F2170019BB63 /* RWHMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHMacros.h; sourceTree = "<group>"; };
+		1666E3491DE3F2170019BB63 /* LMSCommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCommonAlertView.h; sourceTree = "<group>"; };
+		1666E34A1DE3F2170019BB63 /* LMSCommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCommonAlertView.m; sourceTree = "<group>"; };
+		1666E34B1DE3F2170019BB63 /* LMSCustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCustomActionSheet.h; sourceTree = "<group>"; };
+		1666E34C1DE3F2170019BB63 /* LMSCustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCustomActionSheet.m; sourceTree = "<group>"; };
+		1666E34D1DE3F2180019BB63 /* LMSIntrodutionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSIntrodutionView.h; sourceTree = "<group>"; };
+		1666E34E1DE3F2180019BB63 /* LMSIntrodutionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSIntrodutionView.m; sourceTree = "<group>"; };
+		1666E34F1DE3F2180019BB63 /* LMSIntrodutionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSIntrodutionView.xib; sourceTree = "<group>"; };
+		1666E3501DE3F2180019BB63 /* ZHPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPickView.h; sourceTree = "<group>"; };
+		1666E3511DE3F2180019BB63 /* ZHPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPickView.m; sourceTree = "<group>"; };
+		1666E3521DE3F2180019BB63 /* RWHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHAppDelegate.h; sourceTree = "<group>"; };
+		1666E3531DE3F2180019BB63 /* RWHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWHAppDelegate.m; sourceTree = "<group>"; };
+		1666E3541DE3F2180019BB63 /* RWHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHBaseViewController.h; sourceTree = "<group>"; };
+		1666E3551DE3F2180019BB63 /* RWHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWHBaseViewController.m; sourceTree = "<group>"; };
+		1666E3561DE3F2180019BB63 /* RWHCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHCore.h; sourceTree = "<group>"; };
+		B612E27F8967F4EE02DCA142 /* Pods-RWHBaseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWHBaseModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWHBaseModule/Pods-RWHBaseModule.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE60575115A015456D6A3EC /* libPods-RWHBaseModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RWHBaseModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1666E32F1DE3F16B0019BB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B765FB1C74AB9D85DBA6A06 /* libPods-RWHBaseModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1666E3291DE3F16B0019BB63 = {
+			isa = PBXGroup;
+			children = (
+				1666E3351DE3F16B0019BB63 /* RWHBaseModule */,
+				1666E3341DE3F16B0019BB63 /* Products */,
+				7449D865E2EA3E18C4B903C5 /* Pods */,
+				745F50FFB66888A94B552EA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1666E3341DE3F16B0019BB63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3331DE3F16B0019BB63 /* RWHBaseModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1666E3351DE3F16B0019BB63 /* RWHBaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				1666E33E1DE3F2170019BB63 /* RWHAnalytics */,
+				1666E33F1DE3F2170019BB63 /* RWHCategory */,
+				1666E3401DE3F2170019BB63 /* RWHCore */,
+				1666E3571DE3F2180019BB63 /* RWHGT */,
+				1666E3581DE3F2180019BB63 /* RWHShare */,
+				1666E3361DE3F16B0019BB63 /* RWHBaseModule.h */,
+				1666E3371DE3F16B0019BB63 /* Info.plist */,
+			);
+			path = RWHBaseModule;
+			sourceTree = "<group>";
+		};
+		1666E33E1DE3F2170019BB63 /* RWHAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWHAnalytics;
+			sourceTree = "<group>";
+		};
+		1666E33F1DE3F2170019BB63 /* RWHCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWHCategory;
+			sourceTree = "<group>";
+		};
+		1666E3401DE3F2170019BB63 /* RWHCore */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3411DE3F2170019BB63 /* RWH_CoreCategory */,
+				1666E3441DE3F2170019BB63 /* RWH_CoreHelper */,
+				1666E3451DE3F2170019BB63 /* RWH_CoreTool */,
+				1666E3461DE3F2170019BB63 /* RWH_Macros */,
+				1666E3481DE3F2170019BB63 /* RWH_UI */,
+				1666E3521DE3F2180019BB63 /* RWHAppDelegate.h */,
+				1666E3531DE3F2180019BB63 /* RWHAppDelegate.m */,
+				1666E3541DE3F2180019BB63 /* RWHBaseViewController.h */,
+				1666E3551DE3F2180019BB63 /* RWHBaseViewController.m */,
+				1666E3561DE3F2180019BB63 /* RWHCore.h */,
+			);
+			path = RWHCore;
+			sourceTree = "<group>";
+		};
+		1666E3411DE3F2170019BB63 /* RWH_CoreCategory */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3421DE3F2170019BB63 /* UIColor+RWHAdd.h */,
+				1666E3431DE3F2170019BB63 /* UIColor+RWHAdd.m */,
+			);
+			path = RWH_CoreCategory;
+			sourceTree = "<group>";
+		};
+		1666E3441DE3F2170019BB63 /* RWH_CoreHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWH_CoreHelper;
+			sourceTree = "<group>";
+		};
+		1666E3451DE3F2170019BB63 /* RWH_CoreTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWH_CoreTool;
+			sourceTree = "<group>";
+		};
+		1666E3461DE3F2170019BB63 /* RWH_Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3471DE3F2170019BB63 /* RWHMacros.h */,
+			);
+			path = RWH_Macros;
+			sourceTree = "<group>";
+		};
+		1666E3481DE3F2170019BB63 /* RWH_UI */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3491DE3F2170019BB63 /* LMSCommonAlertView.h */,
+				1666E34A1DE3F2170019BB63 /* LMSCommonAlertView.m */,
+				1666E34B1DE3F2170019BB63 /* LMSCustomActionSheet.h */,
+				1666E34C1DE3F2170019BB63 /* LMSCustomActionSheet.m */,
+				1666E34D1DE3F2180019BB63 /* LMSIntrodutionView.h */,
+				1666E34E1DE3F2180019BB63 /* LMSIntrodutionView.m */,
+				1666E34F1DE3F2180019BB63 /* LMSIntrodutionView.xib */,
+				1666E3501DE3F2180019BB63 /* ZHPickView.h */,
+				1666E3511DE3F2180019BB63 /* ZHPickView.m */,
+			);
+			path = RWH_UI;
+			sourceTree = "<group>";
+		};
+		1666E3571DE3F2180019BB63 /* RWHGT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWHGT;
+			sourceTree = "<group>";
+		};
+		1666E3581DE3F2180019BB63 /* RWHShare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RWHShare;
+			sourceTree = "<group>";
+		};
+		7449D865E2EA3E18C4B903C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B612E27F8967F4EE02DCA142 /* Pods-RWHBaseModule.debug.xcconfig */,
+				1479B8B8F2B9488A1707B7B7 /* Pods-RWHBaseModule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		745F50FFB66888A94B552EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE60575115A015456D6A3EC /* libPods-RWHBaseModule.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1666E3301DE3F16B0019BB63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1666E3591DE3F2180019BB63 /* UIColor+RWHAdd.h in Headers */,
+				1666E3381DE3F16B0019BB63 /* RWHBaseModule.h in Headers */,
+				1666E3671DE3F2180019BB63 /* RWHBaseViewController.h in Headers */,
+				1666E35E1DE3F2180019BB63 /* LMSCustomActionSheet.h in Headers */,
+				1666E3651DE3F2180019BB63 /* RWHAppDelegate.h in Headers */,
+				1666E3631DE3F2180019BB63 /* ZHPickView.h in Headers */,
+				1666E35C1DE3F2180019BB63 /* LMSCommonAlertView.h in Headers */,
+				1666E3691DE3F2180019BB63 /* RWHCore.h in Headers */,
+				1666E3601DE3F2180019BB63 /* LMSIntrodutionView.h in Headers */,
+				1666E35B1DE3F2180019BB63 /* RWHMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1666E3321DE3F16B0019BB63 /* RWHBaseModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1666E33B1DE3F16B0019BB63 /* Build configuration list for PBXNativeTarget "RWHBaseModule" */;
+			buildPhases = (
+				F5598C8587FE949BE16135A6 /* [CP] Check Pods Manifest.lock */,
+				1666E32E1DE3F16B0019BB63 /* Sources */,
+				1666E32F1DE3F16B0019BB63 /* Frameworks */,
+				1666E3301DE3F16B0019BB63 /* Headers */,
+				1666E3311DE3F16B0019BB63 /* Resources */,
+				DEE92645444D1ABDDADE7756 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWHBaseModule;
+			productName = RWHBaseModule;
+			productReference = 1666E3331DE3F16B0019BB63 /* RWHBaseModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1666E32A1DE3F16B0019BB63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					1666E3321DE3F16B0019BB63 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D3C83SFDM7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1666E32D1DE3F16B0019BB63 /* Build configuration list for PBXProject "RWHBaseModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1666E3291DE3F16B0019BB63;
+			productRefGroup = 1666E3341DE3F16B0019BB63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1666E3321DE3F16B0019BB63 /* RWHBaseModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1666E3311DE3F16B0019BB63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1666E3621DE3F2180019BB63 /* LMSIntrodutionView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEE92645444D1ABDDADE7756 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWHBaseModule/Pods-RWHBaseModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5598C8587FE949BE16135A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1666E32E1DE3F16B0019BB63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1666E3661DE3F2180019BB63 /* RWHAppDelegate.m in Sources */,
+				1666E35A1DE3F2180019BB63 /* UIColor+RWHAdd.m in Sources */,
+				1666E3611DE3F2180019BB63 /* LMSIntrodutionView.m in Sources */,
+				1666E3681DE3F2180019BB63 /* RWHBaseViewController.m in Sources */,
+				1666E35D1DE3F2180019BB63 /* LMSCommonAlertView.m in Sources */,
+				1666E35F1DE3F2180019BB63 /* LMSCustomActionSheet.m in Sources */,
+				1666E3641DE3F2180019BB63 /* ZHPickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1666E3391DE3F16B0019BB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1666E33A1DE3F16B0019BB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1666E33C1DE3F16B0019BB63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B612E27F8967F4EE02DCA142 /* Pods-RWHBaseModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D3C83SFDM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RWHBaseModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = renwohua.RWHBaseModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1666E33D1DE3F16B0019BB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1479B8B8F2B9488A1707B7B7 /* Pods-RWHBaseModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = D3C83SFDM7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RWHBaseModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = renwohua.RWHBaseModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1666E32D1DE3F16B0019BB63 /* Build configuration list for PBXProject "RWHBaseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1666E3391DE3F16B0019BB63 /* Debug */,
+				1666E33A1DE3F16B0019BB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1666E33B1DE3F16B0019BB63 /* Build configuration list for PBXNativeTarget "RWHBaseModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1666E33C1DE3F16B0019BB63 /* Debug */,
+				1666E33D1DE3F16B0019BB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1666E32A1DE3F16B0019BB63 /* Project object */;
+}

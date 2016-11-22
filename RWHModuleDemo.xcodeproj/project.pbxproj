@@ -14,6 +14,48 @@
 		161BCEEA1DE2C87F007E9E46 /* RWHModuleDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 161BCEE81DE2C87F007E9E46 /* RWHModuleDemo.xcdatamodeld */; };
 		161BCEEC1DE2C87F007E9E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161BCEEB1DE2C87F007E9E46 /* Assets.xcassets */; };
 		161BCEEF1DE2C87F007E9E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161BCEED1DE2C87F007E9E46 /* LaunchScreen.storyboard */; };
+		161BCF301DE2EBA0007E9E46 /* LMSAddBandCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF071DE2EBA0007E9E46 /* LMSAddBandCardVC.m */; };
+		161BCF311DE2EBA0007E9E46 /* LMSAddBandCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF081DE2EBA0007E9E46 /* LMSAddBandCardVC.xib */; };
+		161BCF321DE2EBA0007E9E46 /* LMSAddBandSuccessVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF0A1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.m */; };
+		161BCF331DE2EBA0007E9E46 /* LMSAddBandSuccessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF0B1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.xib */; };
+		161BCF341DE2EBA0007E9E46 /* LMSBankCardChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF0D1DE2EBA0007E9E46 /* LMSBankCardChangeController.m */; };
+		161BCF351DE2EBA0007E9E46 /* LMSBankCardChangeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF0E1DE2EBA0007E9E46 /* LMSBankCardChangeController.xib */; };
+		161BCF361DE2EBA0007E9E46 /* LMSBankCardManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF101DE2EBA0007E9E46 /* LMSBankCardManageController.m */; };
+		161BCF371DE2EBA0007E9E46 /* LMSBankCardManageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF111DE2EBA0007E9E46 /* LMSBankCardManageController.xib */; };
+		161BCF391DE2EBA0007E9E46 /* LMSBankCardSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF151DE2EBA0007E9E46 /* LMSBankCardSuccessController.m */; };
+		161BCF3A1DE2EBA0007E9E46 /* LMSBankCardSuccessController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF161DE2EBA0007E9E46 /* LMSBankCardSuccessController.xib */; };
+		161BCF3B1DE2EBA0007E9E46 /* LMSBankCardInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF191DE2EBA0007E9E46 /* LMSBankCardInfoModel.m */; };
+		161BCF3C1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF1B1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.m */; };
+		161BCF3D1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF1E1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.m */; };
+		161BCF3E1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF1F1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.xib */; };
+		161BCF3F1DE2EBA0007E9E46 /* LMSCardChangeNextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF211DE2EBA0007E9E46 /* LMSCardChangeNextCell.m */; };
+		161BCF401DE2EBA0007E9E46 /* LMSCardChangeNextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF221DE2EBA0007E9E46 /* LMSCardChangeNextCell.xib */; };
+		161BCF421DE2EBA0007E9E46 /* LMSPayViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF261DE2EBA0007E9E46 /* LMSPayViewModel.m */; };
+		161BCF431DE2EBA0007E9E46 /* BankCardInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF281DE2EBA0007E9E46 /* BankCardInfo.plist */; };
+		161BCF441DE2EBA0007E9E46 /* LMSRechargeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF2B1DE2EBA0007E9E46 /* LMSRechargeVC.m */; };
+		161BCF451DE2EBA0007E9E46 /* LMSRechargeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF2C1DE2EBA0007E9E46 /* LMSRechargeVC.xib */; };
+		161BCF461DE2EBA0007E9E46 /* LMSWithdrawCashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF2E1DE2EBA0007E9E46 /* LMSWithdrawCashVC.m */; };
+		161BCF471DE2EBA0007E9E46 /* LMSWithdrawCashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161BCF2F1DE2EBA0007E9E46 /* LMSWithdrawCashVC.xib */; };
+		161BCF4A1DE2EBE7007E9E46 /* LMSBankCardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF491DE2EBE7007E9E46 /* LMSBankCardManager.m */; };
+		161BCF5D1DE2EF8D007E9E46 /* LMSPayInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BCF5C1DE2EF8D007E9E46 /* LMSPayInfoModel.m */; };
+		1666E2FF1DE3EDB10019BB63 /* LMSRepaymentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E2FD1DE3EDB10019BB63 /* LMSRepaymentVC.m */; };
+		1666E3001DE3EDB10019BB63 /* LMSRepaymentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E2FE1DE3EDB10019BB63 /* LMSRepaymentVC.xib */; };
+		1666E3181DE3EE4E0019BB63 /* LMSMyBillDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3031DE3EE4E0019BB63 /* LMSMyBillDetailVC.m */; };
+		1666E3191DE3EE4E0019BB63 /* LMSMyBillDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E3041DE3EE4E0019BB63 /* LMSMyBillDetailVC.xib */; };
+		1666E31A1DE3EE4E0019BB63 /* LMSMyBillVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3061DE3EE4E0019BB63 /* LMSMyBillVC.m */; };
+		1666E31B1DE3EE4E0019BB63 /* LMSMyBillVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E3071DE3EE4E0019BB63 /* LMSMyBillVC.xib */; };
+		1666E31C1DE3EE4E0019BB63 /* LMSBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E30A1DE3EE4E0019BB63 /* LMSBillView.m */; };
+		1666E31D1DE3EE4E0019BB63 /* LMSBillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E30B1DE3EE4E0019BB63 /* LMSBillView.xib */; };
+		1666E31E1DE3EE4E0019BB63 /* LMSMyBillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E30D1DE3EE4E0019BB63 /* LMSMyBillCell.m */; };
+		1666E31F1DE3EE4E0019BB63 /* LMSMyBillCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E30E1DE3EE4E0019BB63 /* LMSMyBillCell.xib */; };
+		1666E3201DE3EE4E0019BB63 /* LMSMybillDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3101DE3EE4E0019BB63 /* LMSMybillDetailCell.m */; };
+		1666E3211DE3EE4E0019BB63 /* LMSMybillDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E3111DE3EE4E0019BB63 /* LMSMybillDetailCell.xib */; };
+		1666E3221DE3EE4E0019BB63 /* LMSMybillDetailHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3131DE3EE4E0019BB63 /* LMSMybillDetailHeadView.m */; };
+		1666E3231DE3EE4E0019BB63 /* LMSMybillDetailHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E3141DE3EE4E0019BB63 /* LMSMybillDetailHeadView.xib */; };
+		1666E3241DE3EE4E0019BB63 /* LMSMybillYearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3161DE3EE4E0019BB63 /* LMSMybillYearView.m */; };
+		1666E3251DE3EE4E0019BB63 /* LMSMybillYearView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E3171DE3EE4E0019BB63 /* LMSMybillYearView.xib */; };
+		1666E3281DE3EF370019BB63 /* LMSMyBillModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3271DE3EF370019BB63 /* LMSMyBillModel.m */; };
+		2D6665AF6C20E8DBCA67CF90 /* libPods-RWHModuleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8676E7FC49EFF0BFBD5F440 /* libPods-RWHModuleDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +70,73 @@
 		161BCEEB1DE2C87F007E9E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		161BCEEE1DE2C87F007E9E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		161BCEF01DE2C87F007E9E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161BCF061DE2EBA0007E9E46 /* LMSAddBandCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAddBandCardVC.h; sourceTree = "<group>"; };
+		161BCF071DE2EBA0007E9E46 /* LMSAddBandCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAddBandCardVC.m; sourceTree = "<group>"; };
+		161BCF081DE2EBA0007E9E46 /* LMSAddBandCardVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSAddBandCardVC.xib; sourceTree = "<group>"; };
+		161BCF091DE2EBA0007E9E46 /* LMSAddBandSuccessVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAddBandSuccessVC.h; sourceTree = "<group>"; };
+		161BCF0A1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAddBandSuccessVC.m; sourceTree = "<group>"; };
+		161BCF0B1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSAddBandSuccessVC.xib; sourceTree = "<group>"; };
+		161BCF0C1DE2EBA0007E9E46 /* LMSBankCardChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardChangeController.h; sourceTree = "<group>"; };
+		161BCF0D1DE2EBA0007E9E46 /* LMSBankCardChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardChangeController.m; sourceTree = "<group>"; };
+		161BCF0E1DE2EBA0007E9E46 /* LMSBankCardChangeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSBankCardChangeController.xib; sourceTree = "<group>"; };
+		161BCF0F1DE2EBA0007E9E46 /* LMSBankCardManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardManageController.h; sourceTree = "<group>"; };
+		161BCF101DE2EBA0007E9E46 /* LMSBankCardManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardManageController.m; sourceTree = "<group>"; };
+		161BCF111DE2EBA0007E9E46 /* LMSBankCardManageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSBankCardManageController.xib; sourceTree = "<group>"; };
+		161BCF141DE2EBA0007E9E46 /* LMSBankCardSuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardSuccessController.h; sourceTree = "<group>"; };
+		161BCF151DE2EBA0007E9E46 /* LMSBankCardSuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardSuccessController.m; sourceTree = "<group>"; };
+		161BCF161DE2EBA0007E9E46 /* LMSBankCardSuccessController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSBankCardSuccessController.xib; sourceTree = "<group>"; };
+		161BCF181DE2EBA0007E9E46 /* LMSBankCardInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardInfoModel.h; sourceTree = "<group>"; };
+		161BCF191DE2EBA0007E9E46 /* LMSBankCardInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardInfoModel.m; sourceTree = "<group>"; };
+		161BCF1A1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardPhotoModel.h; sourceTree = "<group>"; };
+		161BCF1B1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardPhotoModel.m; sourceTree = "<group>"; };
+		161BCF1D1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCardChangeFotoCell.h; sourceTree = "<group>"; };
+		161BCF1E1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCardChangeFotoCell.m; sourceTree = "<group>"; };
+		161BCF1F1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSCardChangeFotoCell.xib; sourceTree = "<group>"; };
+		161BCF201DE2EBA0007E9E46 /* LMSCardChangeNextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCardChangeNextCell.h; sourceTree = "<group>"; };
+		161BCF211DE2EBA0007E9E46 /* LMSCardChangeNextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCardChangeNextCell.m; sourceTree = "<group>"; };
+		161BCF221DE2EBA0007E9E46 /* LMSCardChangeNextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSCardChangeNextCell.xib; sourceTree = "<group>"; };
+		161BCF251DE2EBA0007E9E46 /* LMSPayViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSPayViewModel.h; sourceTree = "<group>"; };
+		161BCF261DE2EBA0007E9E46 /* LMSPayViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSPayViewModel.m; sourceTree = "<group>"; };
+		161BCF281DE2EBA0007E9E46 /* BankCardInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BankCardInfo.plist; sourceTree = "<group>"; };
+		161BCF2A1DE2EBA0007E9E46 /* LMSRechargeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRechargeVC.h; sourceTree = "<group>"; };
+		161BCF2B1DE2EBA0007E9E46 /* LMSRechargeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRechargeVC.m; sourceTree = "<group>"; };
+		161BCF2C1DE2EBA0007E9E46 /* LMSRechargeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSRechargeVC.xib; sourceTree = "<group>"; };
+		161BCF2D1DE2EBA0007E9E46 /* LMSWithdrawCashVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSWithdrawCashVC.h; sourceTree = "<group>"; };
+		161BCF2E1DE2EBA0007E9E46 /* LMSWithdrawCashVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSWithdrawCashVC.m; sourceTree = "<group>"; };
+		161BCF2F1DE2EBA0007E9E46 /* LMSWithdrawCashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSWithdrawCashVC.xib; sourceTree = "<group>"; };
+		161BCF481DE2EBE7007E9E46 /* LMSBankCardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBankCardManager.h; sourceTree = "<group>"; };
+		161BCF491DE2EBE7007E9E46 /* LMSBankCardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBankCardManager.m; sourceTree = "<group>"; };
+		161BCF5B1DE2EF8D007E9E46 /* LMSPayInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSPayInfoModel.h; sourceTree = "<group>"; };
+		161BCF5C1DE2EF8D007E9E46 /* LMSPayInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSPayInfoModel.m; sourceTree = "<group>"; };
+		1666E2FC1DE3EDB10019BB63 /* LMSRepaymentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRepaymentVC.h; sourceTree = "<group>"; };
+		1666E2FD1DE3EDB10019BB63 /* LMSRepaymentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRepaymentVC.m; sourceTree = "<group>"; };
+		1666E2FE1DE3EDB10019BB63 /* LMSRepaymentVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSRepaymentVC.xib; sourceTree = "<group>"; };
+		1666E3021DE3EE4E0019BB63 /* LMSMyBillDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMyBillDetailVC.h; sourceTree = "<group>"; };
+		1666E3031DE3EE4E0019BB63 /* LMSMyBillDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMyBillDetailVC.m; sourceTree = "<group>"; };
+		1666E3041DE3EE4E0019BB63 /* LMSMyBillDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMyBillDetailVC.xib; sourceTree = "<group>"; };
+		1666E3051DE3EE4E0019BB63 /* LMSMyBillVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMyBillVC.h; sourceTree = "<group>"; };
+		1666E3061DE3EE4E0019BB63 /* LMSMyBillVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMyBillVC.m; sourceTree = "<group>"; };
+		1666E3071DE3EE4E0019BB63 /* LMSMyBillVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMyBillVC.xib; sourceTree = "<group>"; };
+		1666E3091DE3EE4E0019BB63 /* LMSBillView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBillView.h; sourceTree = "<group>"; };
+		1666E30A1DE3EE4E0019BB63 /* LMSBillView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBillView.m; sourceTree = "<group>"; };
+		1666E30B1DE3EE4E0019BB63 /* LMSBillView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSBillView.xib; sourceTree = "<group>"; };
+		1666E30C1DE3EE4E0019BB63 /* LMSMyBillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMyBillCell.h; sourceTree = "<group>"; };
+		1666E30D1DE3EE4E0019BB63 /* LMSMyBillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMyBillCell.m; sourceTree = "<group>"; };
+		1666E30E1DE3EE4E0019BB63 /* LMSMyBillCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMyBillCell.xib; sourceTree = "<group>"; };
+		1666E30F1DE3EE4E0019BB63 /* LMSMybillDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMybillDetailCell.h; sourceTree = "<group>"; };
+		1666E3101DE3EE4E0019BB63 /* LMSMybillDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMybillDetailCell.m; sourceTree = "<group>"; };
+		1666E3111DE3EE4E0019BB63 /* LMSMybillDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMybillDetailCell.xib; sourceTree = "<group>"; };
+		1666E3121DE3EE4E0019BB63 /* LMSMybillDetailHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMybillDetailHeadView.h; sourceTree = "<group>"; };
+		1666E3131DE3EE4E0019BB63 /* LMSMybillDetailHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMybillDetailHeadView.m; sourceTree = "<group>"; };
+		1666E3141DE3EE4E0019BB63 /* LMSMybillDetailHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMybillDetailHeadView.xib; sourceTree = "<group>"; };
+		1666E3151DE3EE4E0019BB63 /* LMSMybillYearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMybillYearView.h; sourceTree = "<group>"; };
+		1666E3161DE3EE4E0019BB63 /* LMSMybillYearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMybillYearView.m; sourceTree = "<group>"; };
+		1666E3171DE3EE4E0019BB63 /* LMSMybillYearView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSMybillYearView.xib; sourceTree = "<group>"; };
+		1666E3261DE3EF370019BB63 /* LMSMyBillModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMyBillModel.h; sourceTree = "<group>"; };
+		1666E3271DE3EF370019BB63 /* LMSMyBillModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMyBillModel.m; sourceTree = "<group>"; };
+		BBE5664DBB9F25C8FDA50DFE /* Pods-RWHModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWHModuleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWHModuleDemo/Pods-RWHModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7CD127846718885E1D51684 /* Pods-RWHModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWHModuleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWHModuleDemo/Pods-RWHModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E8676E7FC49EFF0BFBD5F440 /* libPods-RWHModuleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RWHModuleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +144,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6665AF6C20E8DBCA67CF90 /* libPods-RWHModuleDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0882A071BDE49D1933447E1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5664DBB9F25C8FDA50DFE /* Pods-RWHModuleDemo.debug.xcconfig */,
+				C7CD127846718885E1D51684 /* Pods-RWHModuleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		161BCED01DE2C87F007E9E46 = {
 			isa = PBXGroup;
 			children = (
 				161BCEDB1DE2C87F007E9E46 /* RWHModuleDemo */,
 				161BCEDA1DE2C87F007E9E46 /* Products */,
+				0882A071BDE49D1933447E1F /* Pods */,
+				2C12D233BA4A29B37164627A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +181,7 @@
 		161BCEDB1DE2C87F007E9E46 /* RWHModuleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				161BCEF61DE2C921007E9E46 /* BaseModule */,
+				161BCF041DE2E408007E9E46 /* PayModule */,
 				161BCEDF1DE2C87F007E9E46 /* AppDelegate.h */,
 				161BCEE01DE2C87F007E9E46 /* AppDelegate.m */,
 				161BCEE21DE2C87F007E9E46 /* ViewController.h */,
@@ -83,51 +204,139 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		161BCEF61DE2C921007E9E46 /* BaseModule */ = {
+		161BCF041DE2E408007E9E46 /* PayModule */ = {
 			isa = PBXGroup;
 			children = (
-				161BCEFB1DE2D03E007E9E46 /* RWHGT */,
-				161BCEF71DE2C921007E9E46 /* RWHAnalytics */,
-				161BCEF81DE2C921007E9E46 /* RWHCategory */,
-				161BCEF91DE2C921007E9E46 /* RWHCore */,
-				161BCEFA1DE2C921007E9E46 /* RWHShare */,
+				1666E3261DE3EF370019BB63 /* LMSMyBillModel.h */,
+				1666E3271DE3EF370019BB63 /* LMSMyBillModel.m */,
+				161BCF5B1DE2EF8D007E9E46 /* LMSPayInfoModel.h */,
+				161BCF5C1DE2EF8D007E9E46 /* LMSPayInfoModel.m */,
+				161BCF481DE2EBE7007E9E46 /* LMSBankCardManager.h */,
+				161BCF491DE2EBE7007E9E46 /* LMSBankCardManager.m */,
+				161BCF251DE2EBA0007E9E46 /* LMSPayViewModel.h */,
+				161BCF261DE2EBA0007E9E46 /* LMSPayViewModel.m */,
+				161BCF051DE2EBA0007E9E46 /* BankCardManage */,
+				161BCF291DE2EBA0007E9E46 /* TradeManage */,
+				1666E3011DE3EE4E0019BB63 /* BillManage */,
+				161BCF271DE2EBA0007E9E46 /* Resource */,
 			);
-			path = BaseModule;
+			path = PayModule;
 			sourceTree = "<group>";
 		};
-		161BCEF71DE2C921007E9E46 /* RWHAnalytics */ = {
+		161BCF051DE2EBA0007E9E46 /* BankCardManage */ = {
 			isa = PBXGroup;
 			children = (
+				161BCF061DE2EBA0007E9E46 /* LMSAddBandCardVC.h */,
+				161BCF071DE2EBA0007E9E46 /* LMSAddBandCardVC.m */,
+				161BCF081DE2EBA0007E9E46 /* LMSAddBandCardVC.xib */,
+				161BCF091DE2EBA0007E9E46 /* LMSAddBandSuccessVC.h */,
+				161BCF0A1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.m */,
+				161BCF0B1DE2EBA0007E9E46 /* LMSAddBandSuccessVC.xib */,
+				161BCF0C1DE2EBA0007E9E46 /* LMSBankCardChangeController.h */,
+				161BCF0D1DE2EBA0007E9E46 /* LMSBankCardChangeController.m */,
+				161BCF0E1DE2EBA0007E9E46 /* LMSBankCardChangeController.xib */,
+				161BCF0F1DE2EBA0007E9E46 /* LMSBankCardManageController.h */,
+				161BCF101DE2EBA0007E9E46 /* LMSBankCardManageController.m */,
+				161BCF111DE2EBA0007E9E46 /* LMSBankCardManageController.xib */,
+				161BCF141DE2EBA0007E9E46 /* LMSBankCardSuccessController.h */,
+				161BCF151DE2EBA0007E9E46 /* LMSBankCardSuccessController.m */,
+				161BCF161DE2EBA0007E9E46 /* LMSBankCardSuccessController.xib */,
+				161BCF171DE2EBA0007E9E46 /* Model */,
+				161BCF1C1DE2EBA0007E9E46 /* View */,
 			);
-			path = RWHAnalytics;
+			path = BankCardManage;
 			sourceTree = "<group>";
 		};
-		161BCEF81DE2C921007E9E46 /* RWHCategory */ = {
+		161BCF171DE2EBA0007E9E46 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				161BCF181DE2EBA0007E9E46 /* LMSBankCardInfoModel.h */,
+				161BCF191DE2EBA0007E9E46 /* LMSBankCardInfoModel.m */,
+				161BCF1A1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.h */,
+				161BCF1B1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.m */,
 			);
-			path = RWHCategory;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		161BCEF91DE2C921007E9E46 /* RWHCore */ = {
+		161BCF1C1DE2EBA0007E9E46 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				161BCF1D1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.h */,
+				161BCF1E1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.m */,
+				161BCF1F1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.xib */,
+				161BCF201DE2EBA0007E9E46 /* LMSCardChangeNextCell.h */,
+				161BCF211DE2EBA0007E9E46 /* LMSCardChangeNextCell.m */,
+				161BCF221DE2EBA0007E9E46 /* LMSCardChangeNextCell.xib */,
 			);
-			path = RWHCore;
+			path = View;
 			sourceTree = "<group>";
 		};
-		161BCEFA1DE2C921007E9E46 /* RWHShare */ = {
+		161BCF271DE2EBA0007E9E46 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				161BCF281DE2EBA0007E9E46 /* BankCardInfo.plist */,
 			);
-			path = RWHShare;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		161BCEFB1DE2D03E007E9E46 /* RWHGT */ = {
+		161BCF291DE2EBA0007E9E46 /* TradeManage */ = {
 			isa = PBXGroup;
 			children = (
+				1666E2FC1DE3EDB10019BB63 /* LMSRepaymentVC.h */,
+				1666E2FD1DE3EDB10019BB63 /* LMSRepaymentVC.m */,
+				1666E2FE1DE3EDB10019BB63 /* LMSRepaymentVC.xib */,
+				161BCF2A1DE2EBA0007E9E46 /* LMSRechargeVC.h */,
+				161BCF2B1DE2EBA0007E9E46 /* LMSRechargeVC.m */,
+				161BCF2C1DE2EBA0007E9E46 /* LMSRechargeVC.xib */,
+				161BCF2D1DE2EBA0007E9E46 /* LMSWithdrawCashVC.h */,
+				161BCF2E1DE2EBA0007E9E46 /* LMSWithdrawCashVC.m */,
+				161BCF2F1DE2EBA0007E9E46 /* LMSWithdrawCashVC.xib */,
 			);
-			path = RWHGT;
+			path = TradeManage;
+			sourceTree = "<group>";
+		};
+		1666E3011DE3EE4E0019BB63 /* BillManage */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3021DE3EE4E0019BB63 /* LMSMyBillDetailVC.h */,
+				1666E3031DE3EE4E0019BB63 /* LMSMyBillDetailVC.m */,
+				1666E3041DE3EE4E0019BB63 /* LMSMyBillDetailVC.xib */,
+				1666E3051DE3EE4E0019BB63 /* LMSMyBillVC.h */,
+				1666E3061DE3EE4E0019BB63 /* LMSMyBillVC.m */,
+				1666E3071DE3EE4E0019BB63 /* LMSMyBillVC.xib */,
+				1666E3081DE3EE4E0019BB63 /* View */,
+			);
+			path = BillManage;
+			sourceTree = "<group>";
+		};
+		1666E3081DE3EE4E0019BB63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1666E3091DE3EE4E0019BB63 /* LMSBillView.h */,
+				1666E30A1DE3EE4E0019BB63 /* LMSBillView.m */,
+				1666E30B1DE3EE4E0019BB63 /* LMSBillView.xib */,
+				1666E30C1DE3EE4E0019BB63 /* LMSMyBillCell.h */,
+				1666E30D1DE3EE4E0019BB63 /* LMSMyBillCell.m */,
+				1666E30E1DE3EE4E0019BB63 /* LMSMyBillCell.xib */,
+				1666E30F1DE3EE4E0019BB63 /* LMSMybillDetailCell.h */,
+				1666E3101DE3EE4E0019BB63 /* LMSMybillDetailCell.m */,
+				1666E3111DE3EE4E0019BB63 /* LMSMybillDetailCell.xib */,
+				1666E3121DE3EE4E0019BB63 /* LMSMybillDetailHeadView.h */,
+				1666E3131DE3EE4E0019BB63 /* LMSMybillDetailHeadView.m */,
+				1666E3141DE3EE4E0019BB63 /* LMSMybillDetailHeadView.xib */,
+				1666E3151DE3EE4E0019BB63 /* LMSMybillYearView.h */,
+				1666E3161DE3EE4E0019BB63 /* LMSMybillYearView.m */,
+				1666E3171DE3EE4E0019BB63 /* LMSMybillYearView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C12D233BA4A29B37164627A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8676E7FC49EFF0BFBD5F440 /* libPods-RWHModuleDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 161BCEF31DE2C87F007E9E46 /* Build configuration list for PBXNativeTarget "RWHModuleDemo" */;
 			buildPhases = (
+				223A85E98AB9D545FF8AC0CA /* [CP] Check Pods Manifest.lock */,
 				161BCED51DE2C87F007E9E46 /* Sources */,
 				161BCED61DE2C87F007E9E46 /* Frameworks */,
 				161BCED71DE2C87F007E9E46 /* Resources */,
+				A93A08371C323AE8AC4949DC /* [CP] Embed Pods Frameworks */,
+				B9EA62F3FB0FA7DC4F0D9C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,23 +401,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161BCF3E1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.xib in Resources */,
+				161BCF3A1DE2EBA0007E9E46 /* LMSBankCardSuccessController.xib in Resources */,
+				161BCF471DE2EBA0007E9E46 /* LMSWithdrawCashVC.xib in Resources */,
+				1666E31D1DE3EE4E0019BB63 /* LMSBillView.xib in Resources */,
 				161BCEEF1DE2C87F007E9E46 /* LaunchScreen.storyboard in Resources */,
+				161BCF401DE2EBA0007E9E46 /* LMSCardChangeNextCell.xib in Resources */,
+				1666E31F1DE3EE4E0019BB63 /* LMSMyBillCell.xib in Resources */,
+				1666E3231DE3EE4E0019BB63 /* LMSMybillDetailHeadView.xib in Resources */,
+				161BCF331DE2EBA0007E9E46 /* LMSAddBandSuccessVC.xib in Resources */,
+				1666E3191DE3EE4E0019BB63 /* LMSMyBillDetailVC.xib in Resources */,
+				1666E3251DE3EE4E0019BB63 /* LMSMybillYearView.xib in Resources */,
+				161BCF371DE2EBA0007E9E46 /* LMSBankCardManageController.xib in Resources */,
+				1666E31B1DE3EE4E0019BB63 /* LMSMyBillVC.xib in Resources */,
 				161BCEEC1DE2C87F007E9E46 /* Assets.xcassets in Resources */,
+				161BCF311DE2EBA0007E9E46 /* LMSAddBandCardVC.xib in Resources */,
+				161BCF451DE2EBA0007E9E46 /* LMSRechargeVC.xib in Resources */,
+				161BCF431DE2EBA0007E9E46 /* BankCardInfo.plist in Resources */,
+				1666E3211DE3EE4E0019BB63 /* LMSMybillDetailCell.xib in Resources */,
+				161BCF351DE2EBA0007E9E46 /* LMSBankCardChangeController.xib in Resources */,
 				161BCEE71DE2C87F007E9E46 /* Main.storyboard in Resources */,
+				1666E3001DE3EDB10019BB63 /* LMSRepaymentVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223A85E98AB9D545FF8AC0CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A93A08371C323AE8AC4949DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWHModuleDemo/Pods-RWHModuleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EA62F3FB0FA7DC4F0D9C0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RWHModuleDemo/Pods-RWHModuleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		161BCED51DE2C87F007E9E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1666E3241DE3EE4E0019BB63 /* LMSMybillYearView.m in Sources */,
+				161BCF461DE2EBA0007E9E46 /* LMSWithdrawCashVC.m in Sources */,
+				161BCF301DE2EBA0007E9E46 /* LMSAddBandCardVC.m in Sources */,
 				161BCEE41DE2C87F007E9E46 /* ViewController.m in Sources */,
+				161BCF441DE2EBA0007E9E46 /* LMSRechargeVC.m in Sources */,
+				161BCF4A1DE2EBE7007E9E46 /* LMSBankCardManager.m in Sources */,
+				1666E3181DE3EE4E0019BB63 /* LMSMyBillDetailVC.m in Sources */,
 				161BCEE11DE2C87F007E9E46 /* AppDelegate.m in Sources */,
+				1666E3221DE3EE4E0019BB63 /* LMSMybillDetailHeadView.m in Sources */,
+				161BCF5D1DE2EF8D007E9E46 /* LMSPayInfoModel.m in Sources */,
 				161BCEEA1DE2C87F007E9E46 /* RWHModuleDemo.xcdatamodeld in Sources */,
+				1666E2FF1DE3EDB10019BB63 /* LMSRepaymentVC.m in Sources */,
+				1666E31C1DE3EE4E0019BB63 /* LMSBillView.m in Sources */,
+				161BCF3B1DE2EBA0007E9E46 /* LMSBankCardInfoModel.m in Sources */,
+				1666E31A1DE3EE4E0019BB63 /* LMSMyBillVC.m in Sources */,
+				161BCF3D1DE2EBA0007E9E46 /* LMSCardChangeFotoCell.m in Sources */,
+				161BCF391DE2EBA0007E9E46 /* LMSBankCardSuccessController.m in Sources */,
+				161BCF3F1DE2EBA0007E9E46 /* LMSCardChangeNextCell.m in Sources */,
+				161BCF321DE2EBA0007E9E46 /* LMSAddBandSuccessVC.m in Sources */,
+				1666E31E1DE3EE4E0019BB63 /* LMSMyBillCell.m in Sources */,
+				161BCF341DE2EBA0007E9E46 /* LMSBankCardChangeController.m in Sources */,
+				1666E3281DE3EF370019BB63 /* LMSMyBillModel.m in Sources */,
 				161BCEDE1DE2C87F007E9E46 /* main.m in Sources */,
+				161BCF361DE2EBA0007E9E46 /* LMSBankCardManageController.m in Sources */,
+				161BCF421DE2EBA0007E9E46 /* LMSPayViewModel.m in Sources */,
+				1666E3201DE3EE4E0019BB63 /* LMSMybillDetailCell.m in Sources */,
+				161BCF3C1DE2EBA0007E9E46 /* LMSBankCardPhotoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +622,7 @@
 		};
 		161BCEF41DE2C87F007E9E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE5664DBB9F25C8FDA50DFE /* Pods-RWHModuleDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3C83SFDM7;
@@ -333,6 +635,7 @@
 		};
 		161BCEF51DE2C87F007E9E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CD127846718885E1D51684 /* Pods-RWHModuleDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3C83SFDM7;

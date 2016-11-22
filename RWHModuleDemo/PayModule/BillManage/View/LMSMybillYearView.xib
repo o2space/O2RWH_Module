@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="J7v-2j-XST" customClass="LMSMybillYearView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ESA-fi-rAA">
+                    <color key="backgroundColor" red="0.84705882352941175" green="0.84313725490196079" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="jcz-mC-sl7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXM-p3-MgY">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upI-ct-SlL">
+                    <color key="backgroundColor" red="0.84705882349999995" green="0.84313725490000002" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="ebQ-P6-phK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="upI-ct-SlL" firstAttribute="top" secondItem="CXM-p3-MgY" secondAttribute="bottom" constant="5" id="EUC-ti-7p8"/>
+                <constraint firstItem="CXM-p3-MgY" firstAttribute="leading" secondItem="ESA-fi-rAA" secondAttribute="leading" id="FTJ-EL-wnv"/>
+                <constraint firstItem="upI-ct-SlL" firstAttribute="leading" secondItem="CXM-p3-MgY" secondAttribute="leading" id="HHE-wF-IuV"/>
+                <constraint firstAttribute="trailing" secondItem="upI-ct-SlL" secondAttribute="trailing" id="IqT-jy-zAC"/>
+                <constraint firstItem="ESA-fi-rAA" firstAttribute="leading" secondItem="J7v-2j-XST" secondAttribute="leading" constant="20" id="p9t-76-Kgs"/>
+                <constraint firstItem="ESA-fi-rAA" firstAttribute="top" secondItem="J7v-2j-XST" secondAttribute="top" id="s6o-MY-Evj"/>
+                <constraint firstAttribute="trailing" secondItem="ESA-fi-rAA" secondAttribute="trailing" id="sdT-Mq-eUo"/>
+                <constraint firstItem="CXM-p3-MgY" firstAttribute="top" secondItem="ESA-fi-rAA" secondAttribute="bottom" constant="5" id="wc0-xI-3Dm"/>
+            </constraints>
+            <connections>
+                <outlet property="lblYear" destination="CXM-p3-MgY" id="ej0-Jh-T7k"/>
+            </connections>
+            <point key="canvasLocation" x="447.5" y="321.5"/>
+        </view>
+    </objects>
+</document>

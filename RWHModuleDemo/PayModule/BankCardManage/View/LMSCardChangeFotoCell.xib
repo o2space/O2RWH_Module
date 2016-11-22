@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LMSCardChangeFotoCell" rowHeight="257" id="KGk-i7-Jjw" customClass="LMSCardChangeFotoCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="257"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="256.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6l-qW-qBg" userLabel="拍摄身份证正面">
+                        <rect key="frame" x="16" y="8" width="343" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="f6R-HT-aOT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="拍摄身份证正面" image="ia_warning">
+                            <color key="titleColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="14t-Ym-zQI">
+                        <rect key="frame" x="16" y="29" width="343" height="211.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner_NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOQ-kf-w2p">
+                                <rect key="frame" x="16" y="16" width="311" height="179.5"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ie_camera2" translatesAutoresizingMaskIntoConstraints="NO" id="PyX-8y-fdS">
+                                <rect key="frame" x="144" y="79" width="54" height="54"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="sOQ-kf-w2p" secondAttribute="bottom" constant="16" id="C1v-nd-XKH"/>
+                            <constraint firstItem="sOQ-kf-w2p" firstAttribute="top" secondItem="14t-Ym-zQI" secondAttribute="top" constant="16" id="QGW-PK-cQL"/>
+                            <constraint firstAttribute="trailing" secondItem="sOQ-kf-w2p" secondAttribute="trailing" constant="16" id="Qqo-P5-teF"/>
+                            <constraint firstItem="sOQ-kf-w2p" firstAttribute="leading" secondItem="14t-Ym-zQI" secondAttribute="leading" constant="16" id="eNm-Zn-kWB"/>
+                            <constraint firstItem="PyX-8y-fdS" firstAttribute="centerX" secondItem="14t-Ym-zQI" secondAttribute="centerX" id="enH-bi-RyE"/>
+                            <constraint firstItem="PyX-8y-fdS" firstAttribute="centerY" secondItem="14t-Ym-zQI" secondAttribute="centerY" id="f4a-Sv-cvV"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer." value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="14t-Ym-zQI" secondAttribute="trailing" constant="16" id="ASN-We-Tfp"/>
+                    <constraint firstItem="14t-Ym-zQI" firstAttribute="top" secondItem="x6l-qW-qBg" secondAttribute="bottom" constant="8" id="AVn-X9-N65"/>
+                    <constraint firstItem="x6l-qW-qBg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="GKL-NH-Rpf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="14t-Ym-zQI" secondAttribute="bottom" constant="16" id="JZT-dz-dxN"/>
+                    <constraint firstItem="x6l-qW-qBg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="agc-YL-OVn"/>
+                    <constraint firstItem="14t-Ym-zQI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="cRh-sI-sRr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="x6l-qW-qBg" secondAttribute="trailing" constant="16" id="lil-og-fHk"/>
+                </constraints>
+                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnTip" destination="x6l-qW-qBg" id="YoZ-uA-Vcs"/>
+                <outlet property="ivPhoto" destination="sOQ-kf-w2p" id="ocV-jC-9VX"/>
+                <outlet property="ivTakeicon" destination="PyX-8y-fdS" id="n92-y5-aSq"/>
+            </connections>
+            <point key="canvasLocation" x="274.5" y="328.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner_NO" width="375" height="214"/>
+        <image name="ia_warning" width="13" height="13"/>
+        <image name="ie_camera2" width="54" height="54"/>
+    </resources>
+</document>
