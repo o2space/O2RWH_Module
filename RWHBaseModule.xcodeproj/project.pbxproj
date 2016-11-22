@@ -25,6 +25,11 @@
 		1666E3671DE3F2180019BB63 /* RWHBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3541DE3F2180019BB63 /* RWHBaseViewController.h */; };
 		1666E3681DE3F2180019BB63 /* RWHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3551DE3F2180019BB63 /* RWHBaseViewController.m */; };
 		1666E3691DE3F2180019BB63 /* RWHCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3561DE3F2180019BB63 /* RWHCore.h */; };
+		1666E36D1DE44ADA0019BB63 /* LMSCustomAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E36A1DE44ADA0019BB63 /* LMSCustomAlertView.h */; };
+		1666E36E1DE44ADA0019BB63 /* LMSCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E36B1DE44ADA0019BB63 /* LMSCustomAlertView.m */; };
+		1666E36F1DE44ADA0019BB63 /* LMSCustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1666E36C1DE44ADA0019BB63 /* LMSCustomAlertView.xib */; };
+		1666E3721DE44B790019BB63 /* UIView+borderLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666E3701DE44B790019BB63 /* UIView+borderLine.h */; };
+		1666E3731DE44B790019BB63 /* UIView+borderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1666E3711DE44B790019BB63 /* UIView+borderLine.m */; };
 		2B765FB1C74AB9D85DBA6A06 /* libPods-RWHBaseModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE60575115A015456D6A3EC /* libPods-RWHBaseModule.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +55,11 @@
 		1666E3541DE3F2180019BB63 /* RWHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHBaseViewController.h; sourceTree = "<group>"; };
 		1666E3551DE3F2180019BB63 /* RWHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWHBaseViewController.m; sourceTree = "<group>"; };
 		1666E3561DE3F2180019BB63 /* RWHCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWHCore.h; sourceTree = "<group>"; };
+		1666E36A1DE44ADA0019BB63 /* LMSCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSCustomAlertView.h; sourceTree = "<group>"; };
+		1666E36B1DE44ADA0019BB63 /* LMSCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSCustomAlertView.m; sourceTree = "<group>"; };
+		1666E36C1DE44ADA0019BB63 /* LMSCustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMSCustomAlertView.xib; sourceTree = "<group>"; };
+		1666E3701DE44B790019BB63 /* UIView+borderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+borderLine.h"; sourceTree = "<group>"; };
+		1666E3711DE44B790019BB63 /* UIView+borderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+borderLine.m"; sourceTree = "<group>"; };
 		B612E27F8967F4EE02DCA142 /* Pods-RWHBaseModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWHBaseModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWHBaseModule/Pods-RWHBaseModule.debug.xcconfig"; sourceTree = "<group>"; };
 		BFE60575115A015456D6A3EC /* libPods-RWHBaseModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RWHBaseModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +142,8 @@
 		1666E3411DE3F2170019BB63 /* RWH_CoreCategory */ = {
 			isa = PBXGroup;
 			children = (
+				1666E3701DE44B790019BB63 /* UIView+borderLine.h */,
+				1666E3711DE44B790019BB63 /* UIView+borderLine.m */,
 				1666E3421DE3F2170019BB63 /* UIColor+RWHAdd.h */,
 				1666E3431DE3F2170019BB63 /* UIColor+RWHAdd.m */,
 			);
@@ -163,6 +175,9 @@
 		1666E3481DE3F2170019BB63 /* RWH_UI */ = {
 			isa = PBXGroup;
 			children = (
+				1666E36A1DE44ADA0019BB63 /* LMSCustomAlertView.h */,
+				1666E36B1DE44ADA0019BB63 /* LMSCustomAlertView.m */,
+				1666E36C1DE44ADA0019BB63 /* LMSCustomAlertView.xib */,
 				1666E3491DE3F2170019BB63 /* LMSCommonAlertView.h */,
 				1666E34A1DE3F2170019BB63 /* LMSCommonAlertView.m */,
 				1666E34B1DE3F2170019BB63 /* LMSCustomActionSheet.h */,
@@ -216,6 +231,8 @@
 			files = (
 				1666E3591DE3F2180019BB63 /* UIColor+RWHAdd.h in Headers */,
 				1666E3381DE3F16B0019BB63 /* RWHBaseModule.h in Headers */,
+				1666E36D1DE44ADA0019BB63 /* LMSCustomAlertView.h in Headers */,
+				1666E3721DE44B790019BB63 /* UIView+borderLine.h in Headers */,
 				1666E3671DE3F2180019BB63 /* RWHBaseViewController.h in Headers */,
 				1666E35E1DE3F2180019BB63 /* LMSCustomActionSheet.h in Headers */,
 				1666E3651DE3F2180019BB63 /* RWHAppDelegate.h in Headers */,
@@ -289,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1666E3621DE3F2180019BB63 /* LMSIntrodutionView.xib in Resources */,
+				1666E36F1DE44ADA0019BB63 /* LMSCustomAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1666E3661DE3F2180019BB63 /* RWHAppDelegate.m in Sources */,
+				1666E36E1DE44ADA0019BB63 /* LMSCustomAlertView.m in Sources */,
 				1666E35A1DE3F2180019BB63 /* UIColor+RWHAdd.m in Sources */,
+				1666E3731DE44B790019BB63 /* UIView+borderLine.m in Sources */,
 				1666E3611DE3F2180019BB63 /* LMSIntrodutionView.m in Sources */,
 				1666E3681DE3F2180019BB63 /* RWHBaseViewController.m in Sources */,
 				1666E35D1DE3F2180019BB63 /* LMSCommonAlertView.m in Sources */,
@@ -498,6 +518,7 @@
 				1666E33D1DE3F16B0019BB63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

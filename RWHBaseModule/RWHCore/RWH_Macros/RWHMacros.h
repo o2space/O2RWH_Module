@@ -36,6 +36,8 @@
 #define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
 #define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
 
+#define OnePixelWidth  (SCREEN_WIDTH == 414 ? 0.334 : 0.5)
+
 //获取图片资源
 #define GetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
 

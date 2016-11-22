@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LMSCustomAlertView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S92-zt-T3a">
+                    <rect key="frame" x="40" y="243" width="295" height="181"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzb-W2-MUE">
+                            <rect key="frame" x="0.0" y="0.0" width="295" height="140"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="140" id="6Yt-YO-KiW"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJI-1A-Tqj">
+                            <rect key="frame" x="0.0" y="140" width="295" height="41"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YZH-3Z-rdy">
+                                    <rect key="frame" x="0.0" y="0.0" width="295" height="1"/>
+                                    <color key="backgroundColor" red="0.84705882352941175" green="0.84313725490196079" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="FxB-9Z-cwj"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="YZH-3Z-rdy" secondAttribute="trailing" id="Nmp-ew-96e"/>
+                                <constraint firstAttribute="height" constant="41" id="Uq4-xy-3Fn"/>
+                                <constraint firstItem="YZH-3Z-rdy" firstAttribute="leading" secondItem="BJI-1A-Tqj" secondAttribute="leading" id="V4h-YN-BOK"/>
+                                <constraint firstItem="YZH-3Z-rdy" firstAttribute="top" secondItem="BJI-1A-Tqj" secondAttribute="top" id="btx-OJ-Yl8"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="dzb-W2-MUE" secondAttribute="trailing" id="Dcw-eo-Ooc"/>
+                        <constraint firstAttribute="width" constant="295" id="MaN-st-JfH"/>
+                        <constraint firstItem="BJI-1A-Tqj" firstAttribute="top" secondItem="dzb-W2-MUE" secondAttribute="bottom" id="REH-o4-R6x"/>
+                        <constraint firstAttribute="bottom" secondItem="BJI-1A-Tqj" secondAttribute="bottom" id="SR7-7y-jqO"/>
+                        <constraint firstItem="dzb-W2-MUE" firstAttribute="top" secondItem="S92-zt-T3a" secondAttribute="top" id="UXe-qP-ErL"/>
+                        <constraint firstAttribute="trailing" secondItem="BJI-1A-Tqj" secondAttribute="trailing" id="ozo-HB-pGa"/>
+                        <constraint firstItem="dzb-W2-MUE" firstAttribute="leading" secondItem="S92-zt-T3a" secondAttribute="leading" id="rTW-8S-VXE"/>
+                        <constraint firstItem="BJI-1A-Tqj" firstAttribute="leading" secondItem="S92-zt-T3a" secondAttribute="leading" id="xJ5-Oa-3eg"/>
+                        <constraint firstAttribute="height" constant="181" id="zcS-pK-pV9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="S92-zt-T3a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dun-6U-EyJ"/>
+                <constraint firstItem="S92-zt-T3a" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jyA-4a-P1Z"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="alertContentHigh" destination="6Yt-YO-KiW" id="ivw-3C-bES"/>
+                <outlet property="allHeight" destination="zcS-pK-pV9" id="A3S-Ld-OIq"/>
+                <outlet property="buttonBgView" destination="BJI-1A-Tqj" id="KLS-JI-VVc"/>
+                <outlet property="containerView" destination="dzb-W2-MUE" id="9m5-Du-Pc3"/>
+                <outlet property="contentView" destination="S92-zt-T3a" id="Xsc-zu-g9W"/>
+                <outlet property="lineH" destination="FxB-9Z-cwj" id="sey-Kt-MAU"/>
+            </connections>
+            <point key="canvasLocation" x="223.5" y="301.5"/>
+        </view>
+    </objects>
+</document>

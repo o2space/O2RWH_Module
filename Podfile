@@ -31,7 +31,8 @@ pod 'UMengUShare/Social/QQ'
 # 集成腾讯微博
 pod 'UMengUShare/Social/TencentWeibo'
 
-pod 'RWHBaseModule','~> 0.0.1'
+#pod 'RWHBaseModule',:path => 'RWHBaseModule'
+pod 'RWHBaseModule',:podspec => 'RWHBaseModule.podspec'
 end
 
 target 'RWHBaseModule' do
