@@ -29,16 +29,15 @@ s.source       = { :git => "https://github.com/wukexiu/O2RWH_Module.git", :tag =
 
 s.requires_arc = true                        #是否使用ARC
 
-s.subspec 'RWHCore' do |RWHCore|
-RWHCore.source_files = 'RWHBaseModule/RWHCore/**/*.{h,m}'
-#RWHCore.platform = :ios, '7.0'
-#RWHCore.resource_bundles = {
-#   'RWHCore' => ['RWHBaseModule/RWHCore/**/*.png','RWHBaseModule/RWHCore/**/*.xib']
-#}
-RWHCore.dependency 'XAspect'
-RWHCore.dependency 'Aspects'
-RWHCore.dependency 'Masonry'
-RWHCore.dependency 'ActionSheetPicker'  
+s.subspec 'RWHCore' do |rwhCore|
+rwhCore.source_files = 'RWHBaseModule/RWHCore/**/*.{h,m}'
+rwhCore.resource_bundles = {
+   'RWHCoreRes' => ['RWHBaseModule/RWHCore/**/*.png','RWHBaseModule/RWHCore/**/*.xib']
+}
+rwhCore.dependency 'XAspect'
+rwhCore.dependency 'Aspects'
+rwhCore.dependency 'Masonry'
+rwhCore.dependency 'ActionSheetPicker'  
 end
 
 #s.subspec 'RWHGT' do |RWHGT|
