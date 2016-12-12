@@ -4,6 +4,7 @@
 #
 #
 #  验证是否正确（后面还有一个git的私有地址)
+#  pod spec lint RWHBaseModule.podspec --allow-warnings --use-libraries --sources=https://github.com/CocoaPods/Specs.git,https://github.com/wukexiu/O2RWHSpecs.git
 #  pod lib lint RWHBaseModule.podspec --allow-warnings --use-libraries --sources=https://github.com/CocoaPods/Specs.git,https://github.com/wukexiu/O2RWHSpecs.git
 #  提交到库  (O2RWHSpecs就是你们的私有库名 后面还有一个git的私有地址)
 #  pod repo push O2RWHSpecs RWHBaseModule.podspec --allow-warnings --use-libraries --sources=https://github.com/CocoaPods/Specs.git,https://github.com/wukexiu/O2RWHSpecs.git

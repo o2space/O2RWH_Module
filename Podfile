@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git' #官方仓库地址
 source 'https://github.com/wukexiu/O2RWHSpecs.git' #私有仓库地址
+inhibit_all_warnings!
 
 platform :ios, '7.0'
 
@@ -31,7 +32,7 @@ pod 'UMengUShare/Social/QQ'
 # 集成腾讯微博
 pod 'UMengUShare/Social/TencentWeibo'
 
-#pod 'RWHBaseModule',:path => 'RWHBaseModule'
+#pod 'RWHBaseModule',:path => '../O2RWH_Module'
 pod 'RWHBaseModule',:podspec => 'RWHBaseModule.podspec'
 end
 
